@@ -32,13 +32,19 @@
               <h1 style="font-size:125%;"> -CURRENT PROJECTS- </h1> 
             </center>
             <br>
-            {% for post in site.posts %}
+            
               <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  {{ post.title }}
+                <a class="post-title" href="/posts/2017/04/17/zirkadia.html">
+                  Zirkadia
                 </a>
               </li>
-            {% endfor %}
+            
+              <li class="post-link">
+                <a class="post-title" href="/posts/2017/04/17/degree-project.html">
+                  Degree Project @ KTH
+                </a>
+              </li>
+            
           </ul>
         </div>
         <div class="footer">
@@ -53,7 +59,34 @@
         </div>
       </div>
 
-        {{ content }}
+        <div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="/images/sidebar-button.png">
+  </div>
+  <div id="post-info">
+    <div id="cover-photo-container">
+      <img id="cover-photo" src="/images/graph.png">
+    </div>
+    <div id="info-container">
+      <h1 id="title">Degree Project @ KTH</h1>
+    </div>
+  </div>
+
+  <div class="post">
+    <h2>Implementing SSSP algorithms on GPUs using CUDA</h2>
+
+<p>We are currently studying various single source shortest path-algorithms such as Dijkstra, Delta-Stepping and Bellman-Ford on single- and multi-core CPUs and, where applicable, NVIDIA GPUs through the CUDA API. Our final goal for the project is to successfully implement Dijkstra Strip-Mined Relaxation (DSMR) on the CUDA platform and compare our results to DSMR running on many-core data clusters. </p>
+
+  </div>
+  <div class="colophon">
+    <p>
+      <span class="separator">&bull;</span>
+      <span id="social">Find me on <a href="https://www.facebook.com/dan.hemgren">Facebook</a>!</span>
+    </p>
+  </div>
+</div>
+
+
 
     </div>
     <script src="/scripts/responsive.js" type="text/javascript"></script>
