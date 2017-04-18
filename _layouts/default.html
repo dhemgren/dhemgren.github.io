@@ -20,10 +20,11 @@
       <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    {% assign post = 2017-04-17-about %}
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/src/about.html"><img id="logo" src="/images/logo.png"></a></h1>
+          <h1 class="title"><a href={% post_url 2017-04-18-about %}><img id="logo" src="/images/logo.png"></a></h1>
           <span class="tagline">Dan Hemgren</span>
         </div>
         <div class="posts">
@@ -32,7 +33,7 @@
               <h1 style="font-size:110%; color:grey">  CURRENT PROJECTS </h1> 
             </center>
             <br>
-            {% for post in site.posts %}
+            {% for post in site.categories.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
                   {{ post.title }}
@@ -48,7 +49,7 @@
             <a href="https://www.facebook.com/dan.hemgren" class="footer-link">Facebook</a> <span class="separator">&bull;</span>
             <a href="http://www.github.com/dhemgren" class="footer-link">GitHub</a>
             <br>
-            <text style="font-size:50%;"> Please note that most of my work is done on a enterprise Git account at KTH </text> 
+            <text style="font-size:50%;"> Please note that most of my work is done on an enterprise Git account at KTH </text> 
 
           </span>
         </div>
