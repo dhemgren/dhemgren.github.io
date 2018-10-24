@@ -20,18 +20,18 @@
       <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/src/about.html"><img id="logo" src="/images/logo.png"></a></h1>
+          <h1 class="title"><a href=/about/2017/04/18/about.html><img id="logo" src="/images/logo.png"></a></h1>
           <span class="tagline">Dan Hemgren</span>
         </div>
         <div class="posts">
           <ul class="posts-list">
-            <!-- <center>
+            <center>
               <h1 style="font-size:110%; color:grey">  CURRENT PROJECTS </h1> 
             </center>
-            -->
             <br>
             
               <li class="post-link">
@@ -41,8 +41,14 @@
               </li>
             
               <li class="post-link">
-                <a class="post-title" href="/posts/2017/04/17/previouswork.html">
-                  Previous work
+                <a class="post-title" href="/posts/2017/04/17/degree-project.html">
+                  Degree Project @ KTH
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/posts/2017/04/16/computer-graphics.html">
+                  Computer Graphics
                 </a>
               </li>
             
@@ -55,7 +61,7 @@
             <a href="https://www.facebook.com/dan.hemgren" class="footer-link">Facebook</a> <span class="separator">&bull;</span>
             <a href="http://www.github.com/dhemgren" class="footer-link">GitHub</a>
             <br>
-            <text style="font-size:50%;"> Please note that I am most active on my enterprise Git account at KTH </text> 
+            <text style="font-size:50%;"> Please note that most of my work is done on an enterprise Git account at KTH </text> 
 
           </span>
         </div>
@@ -67,17 +73,19 @@
   </div>
   <div id="post-info">
     <div id="cover-photo-container">
-      <img id="cover-photo" src="/images/hest.png">
+      <img id="cover-photo" src="/images/graph.png">
     </div>
     <div id="info-container">
-      <h1 id="title">About me</h1>
+      <h1 id="title">Degree Project @ KTH</h1>
     </div>
   </div>
 
   <div class="post">
-    <p>I am a 29 year old swede currently finishing up my third year at the Degree Programme in Computer Science and Engineering at KTH in Stockholm. Next semester marks the beginning of my studies towards a master degree in computer graphics. I can&#39;t wait to get started. I spend most of my free time on coffee and various creative outlets, be it working on games, making music or drawing. I really enjoy the problem solving aspect of programming and often try to challenge myself to learn something new when working on projects. I&#39;m holding on for dear life to my beginners mind.</p>
+    <h2>Implementing SSSP algorithms on GPUs using CUDA</h2>
 
-<p>The first 5/6 (which could be an odd time signature or 0.83f depending on who you ask) of my life revolved around music. I spent a few years studying sound design and jazz drums, after which I made a (very) modest living as a musician around Gothenburg. Dabbling with synthesizers got me into the wonderful world of programming and my interest in music slowly but surely got replaced by coding. </p>
+<p>We are currently studying various single source shortest path-algorithms such as Dijkstras algorithm, Delta-Stepping and Bellman-Fords algorithm on single- / multi-core CPUs and GPGPUs. Our final goal for the project is to successfully implement Dijkstra Strip-Mined Relaxation (DSMR) on the CUDA platform and compare our results to running DSMR on many-core data clusters. </p>
+
+<p>Most of our time so far have been delegated to learning the ropes of the CUDA API and how to utilize parallelization without branching to minimize the overhead of context switching. The final paper will be presented in June.</p>
 
   </div>
   <div class="colophon">
