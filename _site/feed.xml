@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2018-10-26T17:56:28+02:00</updated>
+  <updated>2018-10-26T18:47:12+02:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -52,12 +52,12 @@
     </entry>
   
     <entry>
-      <title type="html">Project 6</title>
-      <link href="http://localhost:4000/web%20development/2014/07/15/project-6/" rel="alternate" type="text/html" title="Project 6" />
+      <title type="html">Papers &amp;amp; Essays</title>
+      <link href="http://localhost:4000/2014/07/15/project-6/" rel="alternate" type="text/html" title="Papers &amp; Essays" />
       <published>2014-07-15T00:00:00+02:00</published>
       <updated>2014-07-15T00:00:00+02:00</updated>
-      <id>http://localhost:4000/web%20development/2014/07/15/project-6</id>
-      <content type="html" xml:base="http://localhost:4000/web%20development/2014/07/15/project-6/"></content>
+      <id>http://localhost:4000/2014/07/15/project-6</id>
+      <content type="html" xml:base="http://localhost:4000/2014/07/15/project-6/"></content>
 
       
       
@@ -71,8 +71,6 @@
         
       </author>
 
-      
-        <category term="Web Development" />
       
 
       
