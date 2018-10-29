@@ -3,10 +3,26 @@ layout: default
 modal-id: 4
 date: 2014-07-13
 img: cv.png
+img-post: cvcover.jpg
+title: Curriculum Vitae
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
----
+description: 
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <h3>WORK</h3><p><b>System Administrator</b><br> MTM<br> (Xpeedio)<br> 2018</p><br>
+                        <p><b>Development Engineer</b><br> Electrolux Adv. R&D<br> (Framtiden AB)<br>2017 - 2018</p><br>
+                        <p><b>First Line Support</b><br> AllTele <br> (Xpeedio) <br> 2016</p><br>
+                        <p><b>Freelance Musician</b><br> Clandestino et al<br> 2014 - 2018</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>EDUCATION</h3>
+                        <p><b>MSc Computer Science</b><br> KTH<br> 2014 - 2019</p><br>
+                        <p><b>BA Music & Sound Production</b><br> Högskolan Dalarna<br> 2007 - 2010</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3>COMPETENCY</h3>
+                    <p>Java, Python, VBA, C#, C, C++, Javascript, Git / SVN</p><br>
+                    <p>Unity, libgdx, CUDA, Unreal Engine 4, React, Matlab, Active Directory</p><br>
+                </div>
+---             
