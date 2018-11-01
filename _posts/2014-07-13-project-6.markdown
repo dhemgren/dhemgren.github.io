@@ -6,5 +6,5 @@ title: Papers & Essays
 img: books.png
 img-post: scicover.jpg
 alt: image-alt
-description: Here you can find a sample of the essays, papers and assignments I have written or contributed to during my time at KTH <br><br><br><a href="pdf/ssspongpu.pdf">Experimental Evaluation Of GPU Solutions To The Single Source Shortest Path Problem</a><br><br><br><a href="pdf/essay.pdf">Safety First? - An Essay On Gradual Typing</a><br><br><br><a href="pdf/radiosity.pdf">Radiosity In Realtime Rendering</a><br><br><br><a href="pdf/classification.pdf">Classification And Prediction Of Steering Direction In Self-Driving Cars</a><br><br><br>
+description: Here you can find a sample of the essays, papers and assignments I have written or contributed to during my time at KTH. <br><br><br><a href="pdf/ssspongpu.pdf">Experimental Evaluation Of GPU Solutions To The Single Source Shortest Path Problem</a><br><br><br><a href="pdf/essay.pdf">Safety First? - An Essay On Gradual Typing</a><br><br><br><a href="pdf/radiosity.pdf">Radiosity In Realtime Rendering</a><br><br><br><a href="pdf/classification.pdf">Classification And Prediction Of Steering Direction In Self-Driving Cars</a><br><br><br>
 ---
