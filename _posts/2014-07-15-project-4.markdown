@@ -22,7 +22,7 @@ description:
                 </div>
                 <div class="row">
                     <h3>COMPETENCY</h3>
-                    <p>Java, Python, VBA, C#, C, C++, Javascript, Git / SVN</p><br>
+                    <p>Java, Python, VBA, C#, C, C++, Javascript, Git / SVN, SQL</p><br>
                     <p>Unity, libgdx, CUDA, Unreal Engine 4, React, Matlab, Active Directory</p><br>
                 </div>
 ---             
