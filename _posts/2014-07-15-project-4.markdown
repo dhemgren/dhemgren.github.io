@@ -7,7 +7,7 @@ img-post: cvcover.jpg
 title: Curriculum Vitae
 alt: image-alt
 description: 
-                <div class="row">
+                <div class="row" style="text-align:center">
                     <div class="col-lg-4 col-lg-offset-2">
                         <h3>WORK</h3><p><b>System Administrator</b><br> MTM<br> (Xpeedio)<br> 2018</p><br>
                         <p><b>Development Engineer</b><br> Electrolux Adv. R&D<br> (Framtiden AB)<br>2017 - 2018</p><br>
@@ -20,7 +20,7 @@ description:
                         <p><b>BA Music & Sound Production</b><br> Högskolan Dalarna<br> 2007 - 2010</p><br>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" style="text-align:center">
                     <h3>COMPETENCY</h3>
                     <p>Java, Python, VBA, C#, C, C++, Javascript, Git / SVN, SQL</p><br>
                     <p>Unity, libgdx, CUDA, Unreal Engine 4, React, Matlab, Active Directory</p><br>
